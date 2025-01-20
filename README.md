@@ -8,7 +8,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Link
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://result-summary-component-ten-gilt.vercel.app/
 
 ### Built with
 
