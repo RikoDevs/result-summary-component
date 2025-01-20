@@ -1,0 +1,249 @@
+body {
+  font-family: Hanken Grotesk;
+  margin-top: 100px;
+}
+
+.container h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.circle h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.circle p {
+  color: hsl(252, 100%, 67%);
+}
+
+.circle {
+  background-color: hsla(256, 72%, 46%, 1);
+  width: 80px;
+  padding: 40px;
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 1px 0 2px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 14px;
+}
+
+.box-1 {
+  width: 250px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+  background-color: hsl(252, 100%, 67%);
+  text-align: center;
+}
+
+.clear {
+  clear: left;
+}
+
+.great h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 23px;
+}
+
+.result h1 {
+  color: white;
+}
+
+.desc p {
+  color: white;
+}
+
+.button {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.box-2 {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 270px;
+  box-sizing: border-box;
+}
+
+.reaction {
+  margin-top: 20px;
+  width: 210px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 90%);
+}
+
+.reaction h2 {
+  margin-top: 11px;
+  margin-left: 30px;
+}
+
+.reaction img {
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.reaction p,
+.reaction h2,
+.reaction span {
+  position: absolute;
+  top: 0;
+}
+
+.reaction p,
+.reaction span {
+  right: 10px;
+  top: 13px;
+}
+
+.reaction span {
+  top: 0px;
+  right: 40px;
+  font-weight: 900;
+}
+
+.memory {
+  background-color: hsl(39, 100%, 85%);
+  border-radius: 10px;
+  width: 210px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.memory span,
+.memory p {
+  float: right;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.memory span {
+  top: 0px;
+  right: 40px;
+  font-weight: 900;
+}
+
+.memory h2 {
+  position: absolute;
+  top: 11px;
+  left: 30px;
+}
+
+.memory img {
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.verbal {
+  width: 210px;
+  height: 40px;
+  background-color: hsl(166, 100%, 80%);
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.verbal span,
+.verbal p {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.verbal span {
+  right: 40px;
+  top: 0;
+  font-weight: 900;
+}
+
+.verbal h2 {
+  position: absolute;
+  top: 11px;
+  left: 30px;
+}
+
+.verbal img {
+  position: absolute;
+  top: 9px;
+  left: 6px;
+}
+
+.visual {
+  position: relative;
+  width: 210px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: hsl(234, 85%, 80%);
+  margin-bottom: 50px;
+}
+
+.visual span,
+.visual p {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+
+.visual span {
+  top: 0;
+  right: 40px;
+  font-weight: 900;
+}
+
+.visual h2 {
+  position: absolute;
+  top: 11px;
+  left: 30px;
+}
+
+.visual img {
+  position: absolute;
+  top: 9px;
+  left: 6px;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.button {
+  width: 210px;
+  height: 40px;
+  background-color: hsl(241, 81%, 54%);
+  line-height: 40px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: hsl(241, 81%, 30%);
+}
